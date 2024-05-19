@@ -25,9 +25,9 @@
 		diode-direction = "col2row";
 		wakeup-source;
 		
-		row-gpios = <&pro_micro 031 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-					<&pro_micro 029 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-					<&pro_micro 002 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-					<&pro_micro 115 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+		row-gpios = <&pro_micro P031 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+					<&pro_micro P029 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+					<&pro_micro P002 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+					<&pro_micro P115 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 	};
 };

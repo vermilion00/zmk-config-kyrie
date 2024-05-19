@@ -58,10 +58,10 @@
 
 		system_layer {
 			bindings = <
-				&none   &none   &none    &kp C_PP      &kp A     &kp P				         &none        &none      &none        &none        &none        &none
-				&none   &none   &kp C_PREV    &kp C_PP      &kp C_NEXT     &kp K				         &kp B        &kp O      &none        &none        &none        &none
-				&none   &none   &kp C_RW    &kp C_PP      &kp C_FF     &kp I  &trans	    &trans   &none        &none      &none        &none        &none        &none
-										 &none      &none     &none  &trans     &trans   &none        &kp E      &none
+				&none   &none   &kp C_BRI_DN &kp C_PP   &kp C_BRI_UP &kp C_VOL_U				         		 &none     &none      &none       &none        &none        &none
+				&none   &none   &kp C_PREV   &kp C_PP   &kp C_NEXT   &kp C_VOL_D				        		 &kp B     &kp O      &none       &none        &none        &none
+				&none   &none   &kp C_RW     &kp C_PP   &kp C_FF     &kp I       &kp C_MUTE 		 &trans      &none     &none      &none       &none        &none        &none
+										     &none      &none        &none       &trans     		 &trans      &none     &kp E      &none
 			>;
 		};
     };

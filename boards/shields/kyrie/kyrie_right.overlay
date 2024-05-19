@@ -1,15 +1,22 @@
+/*
+ * Copyright (c) 2021 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
 #include "kyrie.dtsi"
 
 &default_transform {
-	col-offset = <7>;
+    col-offset = <6>;
 };
 
-&kscan0 {					
-	col-gpios = <&pro_micro P020 GPIO_ACTIVE_HIGH>,
-				<&pro_micro P022 GPIO_ACTIVE_HIGH>,
-				<&pro_micro P024 GPIO_ACTIVE_HIGH>,
-				<&pro_micro P100 GPIO_ACTIVE_HIGH>,
-				<&pro_micro P011 GPIO_ACTIVE_HIGH>,
-				<&pro_micro P104 GPIO_ACTIVE_HIGH>,
-				<&pro_micro P106 GPIO_ACTIVE_HIGH>;
+&kscan0 {
+    col-gpios
+        = <&pro_micro 14 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 18 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 19 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 20 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 21 GPIO_ACTIVE_HIGH>
+        ;
 };

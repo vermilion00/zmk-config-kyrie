@@ -19,6 +19,6 @@
 ---
 include:
   - board: nice_nano
-    shield: elephant42_left
+    shield: kyrie_left
   - board: nice_nano
-    shield: elephant42_right
+    shield: kyrie_right

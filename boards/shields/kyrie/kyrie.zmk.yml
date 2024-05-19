@@ -1,6 +1,6 @@
 file_format: "1"
-id: elephant42
-name: Elephant42
+id: kyrie
+name: Kyrie
 type: shield
 url: https://github.com/illness072/elephant42
 requires: [pro_micro]
@@ -10,5 +10,5 @@ features:
   - display
   - underglow
 siblings:
-  - elephant42_left
-  - elephant42_right
+  - kyrie_left
+  - kyrie_right

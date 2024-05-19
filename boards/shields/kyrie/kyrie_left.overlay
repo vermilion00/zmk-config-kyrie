@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "elephant42.dtsi"
+#include "kyrie.dtsi"
 
 &kscan0 {
     col-gpios

@@ -21,19 +21,19 @@
 
         default_layer {
             bindings = <
-                &kp ESC   &kp Q    &kp W    &kp F    &kp P    &kp B    						      &kp J    &kp L    &kp U     &kp Y    &kp SEMI  &kp BSPC
-                &kp TAB   &kp A    &kp R    &kp S    &kp T    &kp G						    	  &kp K    &kp N    &kp E     &kp I    &kp O     &kp SQT
-				&kp LGUI  &kp V    &kp X    &kp D    &kp C    &kp Z      &mo SYS	    &kp BSPC  &kp M    &kp H    &kp COMMA &kp DOT  &kp FSLH  &kp BSLH
-											&kp LALT &kp LCTL  &kp SPACE  &mo ALT	    &mo NAV   &kp LSFT &kp RET  &kp RALT
+                &kp ESC   &kp Q    &kp W    &kp F    &kp P     &kp B    						  &kp J    &kp L    &kp U     &kp Y    &kp SEMI  &kp BSPC
+                &kp TAB   &kp A    &kp R    &kp S    &kp T     &kp G						      &kp K    &kp N    &kp E     &kp I    &kp O     &kp SQT
+				&kp LGUI  &kp V    &kp X    &kp D    &kp C     &kp Z      &mo SYS	    &kp BSPC  &kp M    &kp H    &kp COMMA &kp DOT  &kp FSLH  &kp BSLH
+											&kp LALT &kp LCTRL &kp SPACE  &mo ALT	    &mo NAV   &kp LSFT &kp RET  &kp RALT
             >;
         };
 		
 		qwerty_layer {
             bindings = <
-                &kp ESC   &kp Q    &kp W    &kp E    &kp R    &kp T    						      &kp Y    &kp U    &kp I     &kp I    &kp P    &kp BSPC
-                &kp TAB   &kp A    &kp S    &kp D    &kp F    &kp G						    	  &kp H    &kp J    &kp K     &kp L    &kp SEMI &kp SQT
-				&kp LGUI  &kp Z    &kp X    &kp C    &kp V    &kp B      &mo SYS	    &kp BSPC  &kp N    &kp M    &kp COMMA &kp DOT  &kp FSLH &kp BSLH
-											&kp LALT &kp LCTL  &kp SPACE  &mo ALT	    &mo NAV   &kp LSFT &kp RET  &kp RALT
+                &kp ESC   &kp Q    &kp W    &kp E    &kp R     &kp T    						  &kp Y    &kp U    &kp I     &kp I    &kp P    &kp BSPC
+                &kp TAB   &kp A    &kp S    &kp D    &kp F     &kp G						      &kp H    &kp J    &kp K     &kp L    &kp SEMI &kp SQT
+				&kp LGUI  &kp Z    &kp X    &kp C    &kp V     &kp B      &mo SYS	    &kp BSPC  &kp N    &kp M    &kp COMMA &kp DOT  &kp FSLH &kp BSLH
+											&kp LALT &kp LCTRL &kp SPACE  &mo ALT	    &mo NAV   &kp LSFT &kp RET  &kp RALT
             >;
         };
 		
@@ -41,8 +41,8 @@
 			bindings = <
 				&kp GRAVE &kp CARET &kp PG_UP &kp UP   &kp HOME  &kp COLON					     &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &kp DEL
 				&kp DEL   &kp HOME  &kp LEFT  &kp DOWN &kp RIGHT &kp SEMI 					     &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &kp A
-				&trans    &kp AMPS  &kp PG_DN &kp DOWN &kp END   &kp DQT    &tog QWTY   &kp LSFT &kp F11  &kp F12  &none    &none    &none    &kp DLLR
-											  &trans   &trans    &trans     &trans      &trans   &trans   &none    &none
+				&trans    &kp AMPS  &kp PG_DN &kp DOWN &kp END   &kp DQT   &tog QWTY    &kp LSFT &kp F11  &kp F12  &none    &none    &none    &kp DLLR
+											  &trans   &trans    &trans    &trans       &trans   &trans   &none    &none
 			>;
 		};
 		

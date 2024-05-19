@@ -20,14 +20,14 @@
     keymap {
         compatible = "zmk,keymap";
 		
-		default_layer {
+		/*default_layer {
             bindings = <
                 &kp ESC   &kp Q    &kp W    &kp F    &kp P     &kp B    						  &kp J    &kp L    &kp U     &kp Y    &kp SEMI  &kp BSPC
                 &kp TAB   &kp A    &kp R    &kp S    &kp T     &kp G						      &kp K    &kp N    &kp E     &kp I    &kp O     &kp SQT
 				&kp LGUI  &kp V    &kp X    &kp D    &kp C     &kp Z      &none	    &kp BSPC  &kp M    &kp H    &kp COMMA &kp DOT  &kp FSLH  &kp BSLH
 											&kp LALT &kp LCTRL &kp SPACE  &none	    &none   &kp LSFT &kp RET  &none
             >;
-        };
+        };*/
 
         default_layer {
             bindings = <

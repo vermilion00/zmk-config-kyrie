@@ -1,6 +1,6 @@
 #include "kyrie.dtsi"
 
-&default_kscan {					
+&kscan0 {					
 	col-gpios = <&pro_micro P106 GPIO_ACTIVE_HIGH>,
 				<&pro_micro P104 GPIO_ACTIVE_HIGH>,
 				<&pro_micro P011 GPIO_ACTIVE_HIGH>,

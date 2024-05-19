@@ -55,13 +55,18 @@
 												&kp LT     &kp GT    &trans    &trans     &kp PLUS &kp MINUS &kp EQUAL &kp FSLH
 			>;
 		};
-
+		
+		/* Make keybinds for:
+			-copy, paste, cut
+			-going left and right by word
+			-going left and right by word with shift held
+			*/
 		system_layer {
 			bindings = <
-				&none   &none   &kp C		 &kp C_PP   &kp C		 &kp C				         		 &none     &none      &none       &none        &none        &none
-				&none   &none   &kp C_PREV   &kp C_PP   &kp C_NEXT   &kp C				        		 &kp B     &kp O      &none       &none        &none        &none
-				&none   &none   &kp C        &kp C_PP   &kp C        &kp C       &trans      		 &trans      &none     &none      &none       &none        &none        &none
-										     &none      &none        &none       &trans     		 &trans      &none     &kp E      &none
+				&none   &none   &kp C_PREV	 &kp C_PP   &kp C_NEXT   &kp C				         		 &bt BT_SEL 0 &bt BT_SEL 1 &none       &none        &none        &none
+				&none   &none   &kp C_PREV   &kp C_PP   &kp C_NEXT   &kp C				        		 &none        &none        &none       &none        &none        &none
+				&none   &none   &kp C        &kp C_PP   &kp C        &kp C       &trans        &trans    &none        &none        &none       &none        &none        &none
+										     &none      &none        &none       &trans        &none     &kp LSFT     &none        &none
 			>;
 		};
     };

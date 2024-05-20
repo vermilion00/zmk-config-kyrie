@@ -7,3 +7,5 @@
 #define USB OUT_USB
 #define IDLE soft_off
 #define TOG OUT_TOG
+#define CSLEFT LC(LS(LEFT))
+#define CSRIGHT LC(LS(RIGHT))

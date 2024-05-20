@@ -6,3 +6,4 @@
 #define BLE OUT_BLE
 #define USB OUT_USB
 #define IDLE soft_off
+#define OTOG OUT_TOG

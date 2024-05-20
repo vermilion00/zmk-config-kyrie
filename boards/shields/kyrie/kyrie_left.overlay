@@ -1,11 +1,11 @@
 #include "kyrie.dtsi"
 
 &kscan0 {					
-	col-gpios = <&pro_micro P106 GPIO_ACTIVE_HIGH>,
-				<&pro_micro P104 GPIO_ACTIVE_HIGH>,
-				<&pro_micro P011 GPIO_ACTIVE_HIGH>,
-				<&pro_micro P100 GPIO_ACTIVE_HIGH>,
-				<&pro_micro P024 GPIO_ACTIVE_HIGH>,
+	col-gpios = <&pro_micro P020 GPIO_ACTIVE_HIGH>,
 				<&pro_micro P022 GPIO_ACTIVE_HIGH>,
-				<&pro_micro P020 GPIO_ACTIVE_HIGH>;
+				<&pro_micro P024 GPIO_ACTIVE_HIGH>,
+				<&pro_micro P100 GPIO_ACTIVE_HIGH>,
+				<&pro_micro P011 GPIO_ACTIVE_HIGH>,
+				<&pro_micro P104 GPIO_ACTIVE_HIGH>,
+				<&pro_micro P106 GPIO_ACTIVE_HIGH>;
 };

@@ -64,10 +64,10 @@
 			*/
 		system_layer {
 			bindings = <
-				&BOOT   &none   &kp C_PREV	 &kp C_PP   &kp C_NEXT    &kp C				         		 &bt SEL 0    &bt SEL 1    &bt SEL 2    &bt SEL 3   &bt SEL 4    &BOOT
-				&RESET  &none   &kp LC(LEFT) &kp C_PP   &kp LC(RIGHT) &kp C				        		 &none        &none        &none        &none       &none        &RESET
-				&IDLE   &none   &kp C        &kp C_PP   &kp C         &kp C       &trans        &trans    &none        &none        &none        &none       &none        &IDLE
-										     &none      &none         &none       &trans        &none     &kp LSFT     &none        &bt BT_CLR
+				&BOOT   &none   &kp C_PREV	 &kp C_PP   &kp C_NEXT    &kp LC(X)				             &bt SEL 0    &bt SEL 1    &bt SEL 2    &bt SEL 3   &bt SEL 4    &BOOT
+				&RESET  &none   &kp LC(LEFT) &kp C_PP   &kp LC(RIGHT) &kp LC(C)			        		 &none        &none        &none        &none       &none        &RESET
+				&IDLE   &none   &kp C        &kp C_PP   &kp C         &kp LC(V)   &trans       &trans    &none        &none        &none        &none       &none        &IDLE
+										     &bt BT_CLR &none         &none       &trans       &none     &kp LSFT     &none        &bt BT_CLR
 			>;
 		};
     };

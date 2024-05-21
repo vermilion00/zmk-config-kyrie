@@ -2,13 +2,11 @@ file_format: "1"
 id: kyrie
 name: Kyrie
 type: shield
-url: https://github.com/illness072/elephant42
+url: https://github.com/vermilion00/zmk-config-kyrie
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
-  - display
-  - underglow
 siblings:
   - kyrie_left
   - kyrie_right

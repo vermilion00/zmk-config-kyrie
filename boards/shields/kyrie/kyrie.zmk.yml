@@ -4,7 +4,6 @@ name: Kyrie
 type: shield
 url: https://github.com/vermilion00/zmk-config-kyrie
 requires: [pro_micro]
-exposes: [i2c_oled]
 features:
   - keys
 siblings:
